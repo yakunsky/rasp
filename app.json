@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Расписание",
+    "slug": "school-schedule",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "projectId": "2fbcaa1a-6bba-46b5-86e9-6c6007d19d6e",
+    "extra": {
+      "eas": {
+        "projectId": "f9ee1348-6950-4306-943e-919cb197f5a1"
+      }
+    }
+  }
+}
