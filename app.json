@@ -3,13 +3,43 @@
     "name": "Расписание",
     "slug": "school-schedule",
     "version": "1.0.0",
+    "buildNumber": "1",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
+    "icon": "./app-icon.png",
+    "scheme": "school-schedule",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F0F9FF"
+    },
     "projectId": "2fbcaa1a-6bba-46b5-86e9-6c6007d19d6e",
     "extra": {
       "eas": {
         "projectId": "f9ee1348-6950-4306-943e-919cb197f5a1"
       }
-    }
+    },
+    "android": {
+      "package": "com.ykunskiy.schoolschedule",
+      "versionCode": 1,
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "ios": {
+      "bundleIdentifier": "com.ykunskiy.schoolschedule",
+      "buildNumber": "1",
+      "supportsTablet": false,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font",
+      "expo-router",
+      "expo-splash-screen"
+    ]
   }
 }
